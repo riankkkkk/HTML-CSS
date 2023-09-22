@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        
+        /* Medidas absolutas
+        cm, mm, in, px, pt, pc*/
+        
+        /* Medidas Relativas
+        em, ex, rem, vw, vh, %
+        16px Geralmente = 1em
+        Recomendado usar as medidas px e em */
+            
+        font-size: 1em;
+        font-weight: bold;
+            /* Tamanhos Weight
+            Ligther normal bold bolder*/
+        font-style: italic;
+        
+
+        }
+        h1{
+            /*shorthand font
+            - font style -> font-weight -> font-size -> font-family
+
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 2.2em;
+            font-style: italic;*/
+           font: italic bolder 2.2em "franklin gothic medium","arial narrow","Arial","sans-serif"; 
+        }
+        h2{
+            font: italic bolder 1.7em "franklin gothic medium","arial narrow","Arial","sans-serif"; 
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae pariatur atque magnam, earum ab ipsa, error odio natus nemo aperiam harum nisi exercitationem cum illum. Fuga corporis quos dicta sequi.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic dicta dolores tempore doloremque. Animi eligendi, quod est, ipsam eius quibusdam adipisci aut assumenda quos cum eos obcaecati at, necessitatibus qui!</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo harum temporibus quod? Delectus, repellat eum unde quis ab ullam officia quisquam reiciendis aperiam hic. Ducimus ad quas veniam quod a!</p>
+</body>
+</html>

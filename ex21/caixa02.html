@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+       body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: lightcyan;
+        
+       }
+       header{
+        background-color: white;
+        padding: 10px;
+        margin: 10px 0px;
+        border-radius: 15px;
+        box-shadow: -5px -1px 5px 0px darkslategray;
+        
+       }
+       main{
+        background-color: white;
+        padding: 10px;
+        margin: 0px;
+        box-shadow: -5px -1px 3px darkslategray;
+        border-radius: 15px;
+        
+       }
+       footer{
+        background-color: darkslategray;
+        text-align: center;
+        color: white;
+        padding: 1px;
+        margin-top: 10px;
+       }
+       article{
+        background-color: whitesmoke;
+       }
+       h2{
+           font-family: 'PT Serif', serif;
+           font-size: 2em;
+       }
+       h1{
+        font-family: 'PT Serif', serif;
+        font-size: 2.3em;     
+       }
+       nav{
+        background-color: darkslategray;
+        padding: 3px;
+        box-shadow: 1px 3px 2px 0px rgba(0, 0, 0, 0.736);
+        
+       }
+       nav > a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 10px;
+       }
+       nav > :hover{
+        text-decoration: underline;
+       }
+       #bola{
+         border: 5px groove darkslategray;
+         height: 100px;
+         width: 100px;
+         margin: 10px;
+         background-color: white;
+         border-radius: 50%
+       }
+       
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Ajuda</a>
+            <a href="#">Contato</a>
+            <a href="#">Cadastre-se</a>
+            <a href="#">categoria</a>
+            <a href="#">menu</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>           
+            <section id="noticias">
+                <p>Esportes, Politica, Tecnologia
+                </p>
+                <article>
+                    <h2 id="ntbrasil">Noticias sobre o brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam placeat fugit aperiam hic expedita voluptates natus dolore libero! Repellendus optio ex accusantium molestiae corporis nisi minus commodi impedit itaque debitis?</p>
+
+                    <aside>
+                        <p>Artigo escrito por josé da silva</p>
+                    </aside>
+                </article>
+
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo Curso em Video</p>
+    </footer>
+    <div id="bola">
+    </div>
+    
+</body>
+</html>
