@@ -5,10 +5,12 @@
 
 *{
     margin: 0px;
-    
+    padding: 0px;
 }
 body{
     font-family: 'Sriracha', cursive;
+    min-height: 100vh;
+    background-color: gray;
 }
 
 header{
@@ -16,9 +18,52 @@ header{
     background-color: black;
     color: white;
     text-align: center;
-    height: 200px;
+    height: 200px;   
 }
 header h1{
-    padding: 40px;
+    padding: 40px 0px 5px 0px;
+    font-size: 4em;
 }
-  
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding-left: 5px;
+}
+header a:hover{
+    text-decoration: underline;
+
+
+}
+section{
+    line-height: 2em;
+    padding: 10vh 0px 10vh 0px;
+    font-size: 1.3em;
+    padding-left: 30px;
+}
+.normal{
+    background-color: white;
+    color: black;
+}
+.imagem{
+    color: whitesmoke;
+}
+.imagem >p{
+    background-color: rgba(0, 0, 0, 0.214);
+    width: 400px;
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+footer a:hover{
+    text-decoration: underline;
+}
