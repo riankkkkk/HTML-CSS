@@ -22,12 +22,15 @@ header{
 }
 header h1{
     padding: 40px 0px 5px 0px;
-    font-size: 4em;
+    font-size: 3.5em;
+}
+header p{
+    font-family: 'Passion One', cursive;
 }
 header a{
     text-decoration: none;
     color: white;
-    font-size: 1.2em;
+    font-size: 1.3em;
     padding-left: 5px;
 }
 header a:hover{
@@ -37,27 +40,47 @@ header a:hover{
 }
 section{
     line-height: 2em;
-    padding: 10vh 0px 10vh 0px;
-    font-size: 1.3em;
-    padding-left: 30px;
+    padding: 10vh 0px 10vh 30px;
+    font-size: 3.7vh;       
 }
+
 .normal{
     background-color: white;
     color: black;
 }
 .imagem{
     color: whitesmoke;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.489);
 }
 .imagem >p{
-    background-color: rgba(0, 0, 0, 0.214);
-    width: 400px;
+    background-color: rgba(0, 0, 0, 0.452);
+    display: inline-block;
+    padding: 15px;
+    text-shadow: 1px 1px 0px black;
     
 }
+#img1{
+    background-image: url(../imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    
+    
+
+}
+#img2{
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    
+}   
 footer{
     background-color: black;
     color: white;
     text-align: center;
     padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 footer a{
     color: white;
